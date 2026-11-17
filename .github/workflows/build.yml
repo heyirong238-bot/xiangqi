@@ -13,7 +13,7 @@ jobs:
         with:
           gradle-version: "8.7"
       - run: |
-          unzip -q ./*.zip
+          unzip -q -o "象棋1.0.zip"
           cp pikafish-armv8 XiangqiHelper/app/src/main/jniLibs/arm64-v8a/libpikafish.so
           cd XiangqiHelper
           gradle assembleDebug --no-daemon
