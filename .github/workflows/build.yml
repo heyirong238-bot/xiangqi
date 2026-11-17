@@ -21,3 +21,4 @@ jobs:
         with:
           name: apk
           path: XiangqiHelper/app/build/outputs/apk/debug/*.apk
+        
